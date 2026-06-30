@@ -1,0 +1,8 @@
+[
+  {
+    "file": "clean-module-skill.md",
+    "title": "Clean Module Skill",
+    "desc": "Quy ước clean code cho module BE Express/NestJS hoặc FE Next.js/React.",
+    "tags": ["backend", "frontend", "review"]
+  }
+]
