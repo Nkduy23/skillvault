@@ -10,5 +10,17 @@
     "title": "Clean BE Skill — Express / NestJS",
     "desc": "Quy ước clean code BE: layering, N+1, query performance, security, error handling.",
     "tags": ["backend", "express", "nestjs", "prisma", "review"]
+  },
+  {
+    "file": "new-feature-skill.md",
+    "title": "New Feature Skill — Blueprint trước khi code",
+    "desc": "Checklist plan trước khi viết code: API contract, data model, file structure, edge case.",
+    "tags": ["planning", "frontend", "backend", "feature"]
+  },
+  {
+    "file": "debug-skill.md",
+    "title": "Debug Skill — Quy trình debug có hệ thống",
+    "desc": "Frame vấn đề → debug theo tầng (network, validation, service, DB, FE state) → cô lập bug.",
+    "tags": ["debug", "frontend", "backend"]
   }
 ]
