@@ -1,8 +1,14 @@
 [
   {
-    "file": "clean-module-skill.md",
-    "title": "Clean Module Skill",
-    "desc": "Quy ước clean code cho module BE Express/NestJS hoặc FE Next.js/React.",
-    "tags": ["backend", "frontend", "review"]
+    "file": "clean-fe-skill.md",
+    "title": "Clean FE Skill — Next.js / React",
+    "desc": "Quy ước clean code FE: no-any, tách component, re-render, crash safety, performance.",
+    "tags": ["frontend", "react", "nextjs", "review"]
+  },
+  {
+    "file": "clean-be-skill.md",
+    "title": "Clean BE Skill — Express / NestJS",
+    "desc": "Quy ước clean code BE: layering, N+1, query performance, security, error handling.",
+    "tags": ["backend", "express", "nestjs", "prisma", "review"]
   }
 ]
