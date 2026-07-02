@@ -46,5 +46,23 @@
     "title": "TypeScript Skill — Sử dụng TypeScript hiệu quả",
     "desc": "Quy ước sử dụng TypeScript: strict mode, type guards, generics, utility types.",
     "tags": ["typescript", "frontend", "backend"]
+  },
+  {
+    "file": "testing-skill.md",
+    "title": "Testing Skill — Viết test hiệu quả",
+    "desc": "Quy ước viết test: unit test, integration test, e2e test, coverage, mocking.",
+    "tags": ["testing", "frontend", "backend"]
+  },
+  {
+    "file": "env-config-skill.md",
+    "title": "Env Config Skill — Quản lý biến môi trường",
+    "desc": "Quy ước quản lý biến môi trường: .env files, dotenv, config validation, secrets management.",
+    "tags": ["config", "environment", "backend"]
+  },
+  {
+    "file": "git-workflow-skill.md",
+    "title": "Git Workflow Skill — Quy trình làm việc với Git",
+    "desc": "Quy ước làm việc với Git: branching strategy, commit messages, pull requests, code reviews.",
+    "tags": ["git", "workflow", "version-control"]
   }
 ]
