@@ -22,5 +22,29 @@
     "title": "Debug Skill — Quy trình debug có hệ thống",
     "desc": "Frame vấn đề → debug theo tầng (network, validation, service, DB, FE state) → cô lập bug.",
     "tags": ["debug", "frontend", "backend"]
+  },
+  {
+    "file": "db-schema-skill.md",
+    "title": "DB Schema Skill — Thiết kế schema DB",
+    "desc": "Quy ước thiết kế schema DB: chuẩn hóa, quan hệ, index, performance, migration.",
+    "tags": ["database", "schema", "design"]
+  },
+  {
+    "file": "api-design-skill.md",
+    "title": "API Design Skill — Thiết kế API",
+    "desc": "Quy ước thiết kế API: RESTful, GraphQL, versioning, error handling, security.",
+    "tags": ["api", "design", "rest", "graphql"]
+  },
+  {
+    "file": "auth-skill.md",
+    "title": "Auth Skill — Xác thực và phân quyền",
+    "desc": "Quy ước xác thực và phân quyền: JWT, OAuth2, RBAC, session management.",
+    "tags": ["auth", "security", "backend"]
+  },
+  {
+    "file": "typescript-skill.md",
+    "title": "TypeScript Skill — Sử dụng TypeScript hiệu quả",
+    "desc": "Quy ước sử dụng TypeScript: strict mode, type guards, generics, utility types.",
+    "tags": ["typescript", "frontend", "backend"]
   }
 ]
