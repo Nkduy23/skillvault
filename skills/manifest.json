@@ -82,5 +82,65 @@
     "title": "Deployment Skill — CI/CD, Docker, Rollback",
     "desc": "Pipeline stages, Docker best practices, migration deploy đúng thứ tự, zero-downtime, rollback plan.",
     "tags": ["deployment", "devops", "docker", "cicd"]
+  },
+  {
+    "file": "state-management-skill.md",
+    "title": "State Management Skill — Zustand, React Query, Context",
+    "desc": "Choose the right state management solution, separate server state from client state, prevent unnecessary re-renders and keep state predictable.",
+    "tags": ["react", "zustand", "react-query", "state-management"]
+  },
+  {
+    "file": "performance-fe-skill.md",
+    "title": "Frontend Performance Skill — Core Web Vitals, Bundle, Lazy Load",
+    "desc": "Optimize Core Web Vitals, bundle size, rendering performance, lazy loading, code splitting and image optimization.",
+    "tags": ["performance", "frontend", "react", "web-vitals"]
+  },
+  {
+    "file": "caching-skill.md",
+    "title": "Caching Skill — Redis, HTTP Cache, React Query",
+    "desc": "HTTP caching, Redis, CDN, React Query cache, cache invalidation strategies and cache consistency best practices.",
+    "tags": ["cache", "redis", "performance", "backend"]
+  },
+  {
+    "file": "error-design-skill.md",
+    "title": "Error Design Skill — Error Code, Exception, UX",
+    "desc": "Design consistent error responses, custom error classes, error codes, frontend error handling and user-friendly error experience.",
+    "tags": ["error", "backend", "frontend", "design"]
+  },
+  {
+    "file": "queue-job-skill.md",
+    "title": "Queue Job Skill — Background Job, Retry, BullMQ",
+    "desc": "Background processing with queues, retry strategy, dead letter queue, scheduling jobs and idempotent workers.",
+    "tags": ["queue", "bullmq", "worker", "backend"]
+  },
+  {
+    "file": "file-upload-skill.md",
+    "title": "File Upload Skill — Validation, S3, Processing",
+    "desc": "Secure file uploads, validation, storage, S3 integration, image processing and malware prevention best practices.",
+    "tags": ["upload", "s3", "storage", "backend"]
+  },
+  {
+    "file": "realtime-skill.md",
+    "title": "Realtime Skill — WebSocket, SSE, Polling",
+    "desc": "Choose between WebSocket, Server-Sent Events and polling, manage realtime architecture and scalable event delivery.",
+    "tags": ["websocket", "realtime", "sse", "backend"]
+  },
+  {
+    "file": "refactoring-skill.md",
+    "title": "Refactoring Skill — Safe Migration, Incremental Refactor",
+    "desc": "Refactor legacy code safely using incremental changes, characterization tests and low-risk migration strategies.",
+    "tags": ["refactoring", "clean-code", "architecture", "maintainability"]
+  },
+  {
+    "file": "security-checklist-skill.md",
+    "title": "Security Checklist Skill — OWASP, CORS, Headers",
+    "desc": "Practical security checklist covering OWASP Top 10, authentication, authorization, headers, CORS, validation and secrets management.",
+    "tags": ["security", "owasp", "backend", "frontend"]
+  },
+  {
+    "file": "code-review-skill.md",
+    "title": "Code Review Skill — Review Checklist, Quality, Maintainability",
+    "desc": "Comprehensive code review checklist covering correctness, readability, performance, security, testing and maintainability for frontend and backend.",
+    "tags": ["code-review", "quality", "engineering", "best-practice"]
   }
 ]
