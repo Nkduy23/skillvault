@@ -25,44 +25,62 @@
   },
   {
     "file": "db-schema-skill.md",
-    "title": "DB Schema Skill — Thiết kế schema DB",
-    "desc": "Quy ước thiết kế schema DB: chuẩn hóa, quan hệ, index, performance, migration.",
-    "tags": ["database", "schema", "design"]
+    "title": "DB Schema Skill — Prisma Schema + Migration",
+    "desc": "Naming convention, field design, relation, index strategy, soft delete, migration discipline.",
+    "tags": ["backend", "prisma", "database", "migration"]
   },
   {
     "file": "api-design-skill.md",
-    "title": "API Design Skill — Thiết kế API",
-    "desc": "Quy ước thiết kế API: RESTful, GraphQL, versioning, error handling, security.",
-    "tags": ["api", "design", "rest", "graphql"]
+    "title": "API Design Skill — REST API chuẩn",
+    "desc": "URL design, request/response shape, HTTP status, pagination, naming nhất quán, security.",
+    "tags": ["backend", "api", "design", "rest"]
   },
   {
     "file": "auth-skill.md",
-    "title": "Auth Skill — Xác thực và phân quyền",
-    "desc": "Quy ước xác thực và phân quyền: JWT, OAuth2, RBAC, session management.",
-    "tags": ["auth", "security", "backend"]
+    "title": "Auth Skill — Authentication & Authorization",
+    "desc": "JWT, refresh token, RBAC, middleware guard, password hashing, cookie security, FE auth state.",
+    "tags": ["backend", "frontend", "auth", "security"]
   },
   {
     "file": "typescript-skill.md",
-    "title": "TypeScript Skill — Sử dụng TypeScript hiệu quả",
-    "desc": "Quy ước sử dụng TypeScript: strict mode, type guards, generics, utility types.",
+    "title": "TypeScript Skill — Pattern & Utility Type",
+    "desc": "Utility type, generic, type guard, discriminated union, Zod validate, branded type.",
     "tags": ["typescript", "frontend", "backend"]
   },
   {
     "file": "testing-skill.md",
-    "title": "Testing Skill — Viết test hiệu quả",
-    "desc": "Quy ước viết test: unit test, integration test, e2e test, coverage, mocking.",
-    "tags": ["testing", "frontend", "backend"]
-  },
-  {
-    "file": "env-config-skill.md",
-    "title": "Env Config Skill — Quản lý biến môi trường",
-    "desc": "Quy ước quản lý biến môi trường: .env files, dotenv, config validation, secrets management.",
-    "tags": ["config", "environment", "backend"]
+    "title": "Testing Skill — Unit & Integration Test FE + BE",
+    "desc": "AAA pattern, Jest, Supertest, React Testing Library, msw, coverage strategy.",
+    "tags": ["testing", "frontend", "backend", "jest"]
   },
   {
     "file": "git-workflow-skill.md",
-    "title": "Git Workflow Skill — Quy trình làm việc với Git",
-    "desc": "Quy ước làm việc với Git: branching strategy, commit messages, pull requests, code reviews.",
-    "tags": ["git", "workflow", "version-control"]
+    "title": "Git Workflow Skill — Branch, Commit, PR, Review",
+    "desc": "Branch naming, Conventional Commits, commit hygiene, PR template, rebase vs merge.",
+    "tags": ["git", "workflow", "review"]
+  },
+  {
+    "file": "env-config-skill.md",
+    "title": "Env & Config Skill — Environment Variables + Secrets",
+    "desc": "Validate env khi start, phân loại secret vs config, .env.example, feature flags.",
+    "tags": ["config", "security", "backend", "frontend"]
+  },
+  {
+    "file": "logging-monitoring-skill.md",
+    "title": "Logging & Monitoring Skill — Structured Log + Error Tracking",
+    "desc": "Log level, structured logger, correlation ID, slow query log, Sentry, alert strategy.",
+    "tags": ["backend", "monitoring", "logging", "performance"]
+  },
+  {
+    "file": "prompt-engineering-skill.md",
+    "title": "Prompt Engineering Skill — Làm việc hiệu quả với AI",
+    "desc": "Template prompt theo task, cung cấp context đúng, kiểm soát output, workflow hàng ngày.",
+    "tags": ["ai", "prompt", "workflow"]
+  },
+  {
+    "file": "deployment-skill.md",
+    "title": "Deployment Skill — CI/CD, Docker, Rollback",
+    "desc": "Pipeline stages, Docker best practices, migration deploy đúng thứ tự, zero-downtime, rollback plan.",
+    "tags": ["deployment", "devops", "docker", "cicd"]
   }
 ]
